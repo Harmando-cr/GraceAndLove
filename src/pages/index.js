@@ -1,23 +1,18 @@
 import React from "react"
-import { Link } from "gatsby"
-import tw from "tailwind.macro";
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from "../components/Layout"
+import StyledBackgroundSection from "../components/BackgroundSection"
+import SEO from "../components/Seo"
+import CenterTitle from "../components/CenterTitle"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1 css={tw`text-center text-purple-500`}>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+  <StyledBackgroundSection image='desktop'>
+    <Layout>
+      <SEO title="Home" />
+      <CenterTitle title="Se mejor persona en la vida real que en las redes sociales" />
+    </Layout>
+  </StyledBackgroundSection>
+
 )
 
 export default IndexPage
