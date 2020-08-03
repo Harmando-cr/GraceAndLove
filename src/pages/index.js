@@ -3,16 +3,13 @@ import React from "react"
 import Layout from "../components/Layout"
 import StyledBackgroundSection from "../components/BackgroundSection"
 import SEO from "../components/Seo"
-import {
-  StyledWrapper,
-} from '../components/SharedStyledComponents'
+import CenterTitle from "../components/CenterTitle"
 
 const IndexPage = () => (
-  <StyledBackgroundSection>
+  <StyledBackgroundSection image='desktop'>
     <Layout>
-      <StyledWrapper>
       <SEO title="Home" />
-      </StyledWrapper>
+      <CenterTitle title="Se mejor persona en la vida real que en las redes sociales" />
     </Layout>
   </StyledBackgroundSection>
 
