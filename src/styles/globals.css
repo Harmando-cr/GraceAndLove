@@ -1,2 +1,23 @@
 @tailwind base;
 @tailwind utilities;
+
+@font-face {
+  font-family: Candara;
+  font-style: normal;
+  src: url("../fonts/Candara.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: BlackHand;
+  font-style: normal;
+  src: url("../fonts/blackHand.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: BellMT;
+  font-style: normal;
+  src: url("../fonts/BellMT.woff") format("woff");
+  font-display: swap;
+}

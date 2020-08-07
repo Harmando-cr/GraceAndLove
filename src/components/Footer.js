@@ -7,14 +7,14 @@ import tw from "../images/twitter.svg"
 
 
 const Footer = () => (
-  <footer class='fixed flex bottom-0 w-full justify-center'>
+  <footer class='flex bottom-0 w-full justify-center bg-black pt-5'>
     <a href='https://www.instagram.com/gracelovefound/' class='mr-4'>
       <img src={ig} alt="instagram" class='w-6 '/>
     </a>
-    <a href='https://www.instagram.com/gracelovefound/' class='mr-4'>
+    <a href='https://www.facebook.com/gracelovefound' class='mr-4'>
       <img src={fb} alt="instagram" class='w-6'/>
     </a>
-    <a href='https://www.instagram.com/gracelovefound/'>
+    <a href='https://twitter.com/Gracelovefound'>
       <img src={tw} alt="instagram" class='w-6'/>
     </a>
   </footer>
