@@ -14,6 +14,9 @@ module.exports = {
       },
       backgroundColor: {
         'gl-red': '#d43438'
+      },
+      borderWidth: {
+        '3.5r': '3.5rem'
       }
     },
   },
