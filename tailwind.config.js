@@ -9,6 +9,10 @@ module.exports = {
         bellmt: ['BellMT'],
         blackhand: ['BlackHand']
       },
+      margin: {
+        '14': '3.5rem',
+        '28': '7rem'
+      },
       screens: {
         xxl: '1920px'
       },
@@ -16,7 +20,13 @@ module.exports = {
         'gl-red': '#d43438'
       },
       borderWidth: {
-        '3.5r': '3.5rem'
+        '1r': '1rem',
+        '2r': '2rem',
+        '2.5r': '2.5rem'
+
+      },
+      textColor: {
+        'gl-red': '#d43438'
       }
     },
   },
