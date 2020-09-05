@@ -1,19 +1,17 @@
 import React from "react"
 
-// import Layout from "../components/Layout"
 import '../components/index.css'
 import SEO from "../components/Seo"
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import logo from "../images/gl-logo-all-white.svg"
-// import CenterTitle from "../components/CenterTitle"
 
 const IndexPage = ({location}) => (
   <>
     <div>
-      <Header siteTitle='Home' location={location} />
+      <Header siteTitle='Home' location={location}/>
     </div>
-    <div class='mt-28 xxl:mt-56'>
+    <div class='mt-32 md:mt-28 xxl:mt-56'>
       <SEO title="Home" />
       <div class='text-white text-center text-2xl font-candara p-8 w-full '>
         <div>
@@ -25,11 +23,6 @@ const IndexPage = ({location}) => (
      </div>
     </div>
     <div class='mt-64'>
-      {/* <div class='absolute w-2/3 xxl:w-1/2' style={{
-        borderRight: '6rem solid transparent',
-        borderTop: '6rem solid #d43438',
-        height: 0}}>
-      </div> */}
       <div class='text-left text-black bg-white h-24 w-full pt-4'>
         <h1 class='inline-block font-blackhand mb-0 ml-4 text-2xl mt-8 lg:text-5xl lg:ml-48 xxl:mt-7'> ¿Quienes Somos? </h1>
       </div>
